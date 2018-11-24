@@ -13,8 +13,8 @@ import org.apache.http.util.EntityUtils;
 
 public class ApiMethods {
 	HttpClient client = HttpClientBuilder.create().build();
-	public String token = "fd6d326d87dacfba5f3c6551e3d9792472ab48d803cb68c5d12ef278bdab242569f3cfaffb932a184c44d";
-	public String userId = "135766565";
+	public String token = "fd6d326d87dacfba5f3c6551e3d9792472ab48d803cb68c5d12ef278bdab242569f3cfaffb932a184c44";
+	public String userId = "1357665";
 	public String message = "M!";
 	public String editedMessage = "Mu1";
 	public String randomId = "123123";
