@@ -1,0 +1,119 @@
+{
+  "uid" : "8b66da3dbfedbb8b",
+  "name" : "testForRemoveFromFlag",
+  "fullName" : "pack.TestNGForMailBoxMessages.testForRemoveFromFlag",
+  "historyId" : "272e7384269103bb196c93e803383d66",
+  "time" : {
+    "start" : 1544475236463,
+    "stop" : 1544475263649,
+    "duration" : 27186
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544475085886,
+      "stop" : 1544475086693,
+      "duration" : 807
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544475106330,
+      "stop" : 1544475106399,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1544475227629,
+      "stop" : 1544475236451,
+      "duration" : 8822
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544475106314,
+      "stop" : 1544475106330,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544475106483,
+      "stop" : 1544475106495,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testClass",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "testMethod",
+    "value" : "testForRemoveFromFlag"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "pack.TestNGForMailBoxMessages"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "12244@Olga.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}
