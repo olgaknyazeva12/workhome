@@ -1,0 +1,105 @@
+{
+  "uid" : "e70a1072ef0e2084",
+  "name" : "Runs Cucumber Feature",
+  "fullName" : "cucumber.api.testng.AbstractTestNGCucumberTests.feature",
+  "historyId" : "233915139dbb1529e84e2ec6de1677ae",
+  "time" : {
+    "start" : 1544475102390,
+    "stop" : 1544475106314,
+    "duration" : 3924
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544475085886,
+      "stop" : 1544475086693,
+      "duration" : 807
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setUpClass",
+    "time" : {
+      "start" : 1544475106330,
+      "stop" : 1544475106399,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544475106314,
+      "stop" : 1544475106330,
+      "duration" : 16
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "tearDownClass",
+    "time" : {
+      "start" : 1544475106483,
+      "stop" : 1544475106495,
+      "duration" : 12
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ngscenario.CucumberJvmTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ngscenario.CucumberJvmTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "feature"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ngscenario.CucumberJvmTest"
+  }, {
+    "name" : "host",
+    "value" : "Olga"
+  }, {
+    "name" : "thread",
+    "value" : "12244@Olga.main(1)"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Searching on Mail site (verification 2)"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "extra" : { }
+}

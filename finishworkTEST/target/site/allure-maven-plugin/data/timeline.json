@@ -1,0 +1,149 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 6,
+    "unknown" : 0,
+    "total" : 8
+  },
+  "time" : {
+    "minDuration" : 0,
+    "maxDuration" : 42565,
+    "sumDuration" : 167539,
+    "start" : 1544475106430,
+    "stop" : 1544475312690,
+    "duration" : 206260
+  },
+  "children" : [ {
+    "uid" : "4d028fc8461eee2a",
+    "name" : "Olga",
+    "time" : {
+      "minDuration" : 0,
+      "maxDuration" : 42565,
+      "sumDuration" : 167539,
+      "start" : 1544475106430,
+      "stop" : 1544475312690,
+      "duration" : 206260
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "a3df967dcc236a76",
+      "name" : "12244@Olga.main(1)",
+      "time" : {
+        "minDuration" : 0,
+        "maxDuration" : 42565,
+        "sumDuration" : 167539,
+        "start" : 1544475106430,
+        "stop" : 1544475312690,
+        "duration" : 206260
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "d113a3e06e7c05b7",
+        "name" : "Runs Cucumber Feature",
+        "time" : {
+          "start" : 1544475106430,
+          "stop" : 1544475106430,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ee5882468947b801",
+        "name" : "Runs Cucumber Feature",
+        "time" : {
+          "start" : 1544475106461,
+          "stop" : 1544475106461,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "ba6ceb2afae9f01f",
+        "name" : "testForAddToSpamAllMessages",
+        "time" : {
+          "start" : 1544475113507,
+          "stop" : 1544475138075,
+          "duration" : 24568
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "8b66da3dbfedbb8b",
+        "name" : "testForRemoveFromFlag",
+        "time" : {
+          "start" : 1544475236463,
+          "stop" : 1544475263649,
+          "duration" : 27186
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "efdf931e962ed497",
+        "name" : "testForRemoveFromSpamAllMessages",
+        "time" : {
+          "start" : 1544475145714,
+          "stop" : 1544475183012,
+          "duration" : 37298
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "276ed6af36699e19",
+        "name" : "testForAddToTrashMessages",
+        "time" : {
+          "start" : 1544475270125,
+          "stop" : 1544475312690,
+          "duration" : 42565
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "d1e9a2cccdbe1f51",
+        "name" : "Runs Cucumber Feature",
+        "time" : {
+          "start" : 1544475106446,
+          "stop" : 1544475106446,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "flaky" : true,
+        "type" : "TestCaseNode"
+      }, {
+        "uid" : "9ddafcf3318b4376",
+        "name" : "testForAddToFlag",
+        "time" : {
+          "start" : 1544475191692,
+          "stop" : 1544475227614,
+          "duration" : 35922
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

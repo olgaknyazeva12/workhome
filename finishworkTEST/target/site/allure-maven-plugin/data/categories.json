@@ -1,0 +1,104 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 2
+  },
+  "time" : {
+    "minDuration" : 37298,
+    "maxDuration" : 42565,
+    "sumDuration" : 79863,
+    "start" : 1544475145714,
+    "stop" : 1544475312690,
+    "duration" : 166976
+  },
+  "children" : [ {
+    "uid" : "683269587b640b20",
+    "name" : "Test defects",
+    "time" : {
+      "minDuration" : 37298,
+      "maxDuration" : 42565,
+      "sumDuration" : 79863,
+      "start" : 1544475145714,
+      "stop" : 1544475312690,
+      "duration" : 166976
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "e55ae7c3c0b79d82",
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()='Р’ РІР°С€РµР№ РїРѕС‡С‚Рµ СЃРїР°РјР° РЅРµС‚!']\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'OLGA', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\\Users\\521F~1\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52576}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}\nSession ID: beefa427fcb20a408b0bf40c1a6a4db6\n*** Element info: {Using=xpath, value=//span[text()='Р’ РІР°С€РµР№ РїРѕС‡С‚Рµ СЃРїР°РјР° РЅРµС‚!']}",
+      "time" : {
+        "minDuration" : 37298,
+        "maxDuration" : 37298,
+        "sumDuration" : 37298,
+        "start" : 1544475145714,
+        "stop" : 1544475183012,
+        "duration" : 37298
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "efdf931e962ed497",
+        "name" : "testForRemoveFromSpamAllMessages",
+        "time" : {
+          "start" : 1544475145714,
+          "stop" : 1544475183012,
+          "duration" : 37298
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    }, {
+      "uid" : "f800899ca96d1175",
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"\t(//span[@class='b-datalist__empty__text'])[2]\"}\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'OLGA', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\\Users\\521F~1\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52863}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.110, webStorageEnabled: true}\nSession ID: a2f3dabbae1bc91e2fd4af19213a61d8\n*** Element info: {Using=xpath, value=\t(//span[@class='b-datalist__empty__text'])[2]}",
+      "time" : {
+        "minDuration" : 42565,
+        "maxDuration" : 42565,
+        "sumDuration" : 42565,
+        "start" : 1544475270125,
+        "stop" : 1544475312690,
+        "duration" : 42565
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "276ed6af36699e19",
+        "name" : "testForAddToTrashMessages",
+        "time" : {
+          "start" : 1544475270125,
+          "stop" : 1544475312690,
+          "duration" : 42565
+        },
+        "status" : "broken",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}
